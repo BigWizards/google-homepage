@@ -1,0 +1,147 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 89px;
+    height: 217px;
+}
+
+div.logo div.search-bar {
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+div img {
+    padding: 20px 0 0 0;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 84px;
+    margin: 7px 0 0 10px;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 181px;
+    margin: 8px 0 0 10px;
+    padding-right: 30px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box { 
+    display: flex;
+    flex: 1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: white;
+    max-width: 552px;
+    height: 44px;
+
+}
+
+input[name="search-bar"] {
+    background-color: transparent;
+    border: none;
+    width: 427px;
+    height: 34px;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: #5f6368;
+    min-width: 980px;
+    background: #f2f2f2;
+}
+
+.country {
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+    height: 40px;
+    margin-left: 30px;
+    opacity: 0.54;
+    display: flex;
+    align-items: center;
+}
+
+.bot-footer {
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    opacity: 0.54;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 279.5px;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 179px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }

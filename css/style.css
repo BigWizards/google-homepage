@@ -1,0 +1,261 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 79px;
+    height: 217px;
+}
+
+div.logo div.search-bar {
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+div img {
+    padding: 20px 0 0 0;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    min-width: 84px;
+    margin: 7px 0 0 10px;
+    font-size: 13px;
+    opacity: 0.75;
+}
+
+.about {
+    padding-left: 15px;
+    margin-right: 3.6px;
+}
+
+.store {
+    padding-left: 15px;
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 181px;
+    height: 30px;
+    padding-right: 30px;
+    margin-top: -1px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.gmail {
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.images {
+    opacity: 0.85;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.g-apps {
+    background-image: url('../images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    height: 30px;
+    width: 30px;
+    color: black;
+    opacity: 0.55;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.g-apps:hover {
+    opacity: 0.85;
+}
+
+.profile-input {
+    display: inline-block;
+    color: #fff;
+    background: #4285f4;
+    background: -moz-linear-gradient(top, #4387fd, #4683ea);
+    background: linear-gradient(top, #4387fd, #4683ea);
+    text-decoration: none;
+    line-height: 28px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    outline: none;
+    padding: 0 12px;
+    margin-left: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 28px;
+    width: 84.3;
+    text-align: center;
+    cursor: default;
+}
+
+.profile-input:hover {
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    max-width: 482px;
+    height: 44px;
+    margin-top: -25px;
+    font: 16px arial, sans-serif;
+}
+
+.search-box:hover {
+    box-shadow: 0px 1px 5px 1.5px rgba(194, 192, 192, 0.4);
+}
+
+svg {
+    height:20px;
+    width: 20px;
+    color: #9AA0A6;
+    fill: currentColor;
+    padding-left: 13px;
+}
+
+input[name="search-bar"] {
+    border: none;
+    width: 427px;
+    height: 34px;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+}
+
+.google-search {
+    color: white;
+    background-color:#1a73e8;
+    padding: 0 24px;
+    border-radius: 4px;
+    border-width: 0;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px 11px 7px;
+    text-align: center;
+    font: 14px arial, sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+
+.google-search:hover {
+    background-color: #1967d2;
+}
+
+.lucky-button {
+    color:#1a73e8;
+    padding: 0 24px;
+    border-radius: 4px;
+    border-width: 0;
+    border: 1px solid #c6c6c6;
+    background-color: transparent;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px 11px 8px;
+    text-align: center;
+    font: 14px arial, sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+
+.lucky-button:hover {
+    background-color: #e8f0fe;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: #5f6368;
+    min-width: 980px;
+    background: #f2f2f2;
+}
+
+.country {
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+    height: 40px;
+    margin-left: 30px;
+    opacity: 0.54;
+    display: flex;
+    align-items: center;
+}
+
+.bot-footer {
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    opacity: 0.54;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 279.5px;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 179px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
